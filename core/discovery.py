@@ -8,7 +8,7 @@ from torchvision import transforms
 import open_clip
 import argparse
 import torch.nn.functional as F
-from dataloader import DataLoaderCreator
+from project.core.dataloader import DataLoaderCreator
 from sklearn.decomposition import PCA
 from sklearn.cross_decomposition import PLSRegression
 from sklearn.cross_decomposition import CCA

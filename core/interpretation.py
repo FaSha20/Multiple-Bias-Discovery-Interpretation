@@ -11,7 +11,7 @@ import time
 import argparse
 import os
 # from identification import Trainer
-from dataloader import DataLoaderCreator
+from project.core.dataloader import DataLoaderCreator
 import open_clip
 from clip_retrieval.clip_client import ClipClient, Modality
 from PIL import Image

@@ -11,7 +11,7 @@ import numpy as np
 from torch.utils.data import DataLoader
 import pandas as pd
 from tqdm import tqdm
-from dataloader import DataLoaderCreator
+from project.core.dataloader import DataLoaderCreator
 
 
 class ComponetToGroup(object):
