@@ -47,7 +47,7 @@ CIFAR_100_CLASS_MAP = {
 class SuperCIFAR100(Dataset):
     def __init__(self, **kwargs):
         self.ds = CIFAR100(**kwargs)
-        
+
         self.super_sub_class_dict = CIFAR_100_CLASS_MAP
         self.classes = sorted(list(CIFAR_100_CLASS_MAP.keys()))
         self.subclasses = self.ds.classes

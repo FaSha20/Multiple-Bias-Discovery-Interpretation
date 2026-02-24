@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import os
 from pathlib import Path
 from typing import Optional
 
@@ -19,8 +20,8 @@ class Paths:
 
 @dataclass(frozen=True)
 class VLMConfig:
-    api_key: Optional[str] = None  # pass via env/cli; do not hardcode
-    model_name: str = "gemini-3-flash-preview"
+    api_key: Optional[str] = os.environ.get("AVALAI_API_KEY")  # pass via env/cli; do not hardcode
+    model_name: str = "gemini-2.5-flash-lite"
     temperature: float = 0.0
     max_output_tokens: int = 1024
     request_timeout_s: int = 60
@@ -56,6 +57,7 @@ class DataConfig:
     cifar_root: str
     bias_csv_path: str
     model_path: str
+    dataset_name: str
 
 
 @dataclass(frozen=True)

@@ -44,7 +44,11 @@ class Trainer(object):
         self.classifier = self._build_classifier()
         self.loader, self.test_loader, self.loader_for_clip = self._build_data_loader()
         
-        self.sub_class_names = self.loader.dataset.subclasses
+        # self.sub_class_names = self.loader.dataset.subclasses
+        dataset = self.loader.dataset
+        if isinstance(dataset, torch.utils.data.Subset):
+            dataset = dataset.dataset
+        self.sub_class_names = dataset.subclasses
         self.super_class_names = self.loader.dataset.classes
         self.super_sub_class_dict = self.loader.dataset.super_sub_class_dict
         self.super_target_list = np.array(self.loader.dataset.targets)
