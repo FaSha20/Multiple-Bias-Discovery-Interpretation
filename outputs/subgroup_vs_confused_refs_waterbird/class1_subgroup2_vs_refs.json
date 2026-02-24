@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "class_id": 1,
+    "subgroup": 2,
+    "count": 271,
+    "acc": 0.468634694814682,
+    "ids_subgroup": [
+      1981,
+      524,
+      2367,
+      1715,
+      1787,
+      4118,
+      4212,
+      535,
+      4192,
+      4201,
+      4202,
+      4219,
+      539,
+      4235,
+      1753,
+      1225,
+      1706,
+      1606,
+      4043,
+      1755,
+      171,
+      1709,
+      4144,
+      1671,
+      2032
+    ],
+    "ref_labels": [
+      0
+    ],
+    "ref_ids": [
+      [
+        4301,
+        5262,
+        4675,
+        864,
+        4379,
+        3591,
+        4338,
+        1482,
+        1584,
+        3039,
+        891,
+        3600,
+        4497,
+        3377,
+        2126,
+        4590,
+        5537,
+        2258,
+        4612,
+        667,
+        3732,
+        4918,
+        407,
+        2706,
+        5667
+      ]
+    ],
+    "mode": "top2_per_class_low_acc"
+  },
+  "answer": {
+    "candidates": [
+      {
+        "cue_3w": "bamboo background presence",
+        "evidence": [
+          "Grid A: birds mostly on bamboo stalks",
+          "Ref1: birds on varied backgrounds including water, trees, boats"
+        ],
+        "test": "replace bamboo with random forest background",
+        "confidence": "high"
+      },
+      {
+        "cue_3w": "bird positioned near",
+        "evidence": [
+          "Grid A: birds often perched on thin vertical elements",
+          "Ref1: birds perched on branches or open ground"
+        ],
+        "test": "mask vertical stalks and reposition bird",
+        "confidence": "high"
+      },
+      {
+        "cue_3w": "tight framing on",
+        "evidence": [
+          "Grid A: close-up shots with bird dominating frame",
+          "Ref1: wider shots with more environmental context"
+        ],
+        "test": "apply wide crop to include more surroundings",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "answer_pretty": "{\n  \"candidates\": [\n    {\n      \"cue_3w\": \"bamboo background presence\",\n      \"evidence\": [\n        \"Grid A: birds mostly on bamboo stalks\",\n        \"Ref1: birds on varied backgrounds including water, trees, boats\"\n      ],\n      \"test\": \"replace bamboo with random forest background\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"cue_3w\": \"bird positioned near\",\n      \"evidence\": [\n        \"Grid A: birds often perched on thin vertical elements\",\n        \"Ref1: birds perched on branches or open ground\"\n      ],\n      \"test\": \"mask vertical stalks and reposition bird\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"cue_3w\": \"tight framing on\",\n      \"evidence\": [\n        \"Grid A: close-up shots with bird dominating frame\",\n        \"Ref1: wider shots with more environmental context\"\n      ],\n      \"test\": \"apply wide crop to include more surroundings\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}",
+  "debug_grids": {
+    "S": "subgroup_vs_confused_refs_only_fail/DEBUG_GRIDS/class1_g2_S.jpg",
+    "refs": [
+      "subgroup_vs_confused_refs_only_fail/DEBUG_GRIDS/class1_g2_Ref1.jpg"
+    ]
+  }
+}

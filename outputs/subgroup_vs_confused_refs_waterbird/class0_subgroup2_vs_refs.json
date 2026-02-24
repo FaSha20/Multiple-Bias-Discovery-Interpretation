@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "class_id": 0,
+    "subgroup": 2,
+    "count": 763,
+    "acc": 0.4678899049758911,
+    "ids_subgroup": [
+      1866,
+      5570,
+      2258,
+      5281,
+      2983,
+      3968,
+      94,
+      2974,
+      674,
+      4748,
+      5703,
+      3068,
+      2226,
+      2295,
+      3592,
+      4313,
+      5293,
+      3101,
+      2991,
+      2385,
+      3110,
+      4348,
+      5263,
+      2387,
+      5693
+    ],
+    "ref_labels": [
+      1
+    ],
+    "ref_ids": [
+      [
+        118,
+        1691,
+        2442,
+        2023,
+        581,
+        1616,
+        181,
+        1638,
+        2997,
+        4218,
+        1207,
+        1726,
+        2516,
+        602,
+        1745,
+        1186,
+        152,
+        4202,
+        1611,
+        515,
+        1761,
+        1442,
+        3010,
+        4053,
+        1465
+      ]
+    ],
+    "mode": "top2_per_class_low_acc"
+  },
+  "answer": {
+    "candidates": [
+      {
+        "cue_3w": "water background presence",
+        "evidence": [
+          "Grid A has water background",
+          "Ref1 has varied land/water backgrounds"
+        ],
+        "test": "replace water with land",
+        "confidence": "high"
+      },
+      {
+        "cue_3w": "bird in motion",
+        "evidence": [
+          "Grid A shows birds in motion blur",
+          "Ref1 shows birds in clear focus"
+        ],
+        "test": "apply motion blur to Ref1",
+        "confidence": "high"
+      },
+      {
+        "cue_3w": "low horizon line",
+        "evidence": [
+          "Grid A has low horizon line",
+          "Ref1 has higher horizon line"
+        ],
+        "test": "raise horizon line in Grid A",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "answer_pretty": "{\n  \"candidates\": [\n    {\n      \"cue_3w\": \"water background presence\",\n      \"evidence\": [\n        \"Grid A has water background\",\n        \"Ref1 has varied land/water backgrounds\"\n      ],\n      \"test\": \"replace water with land\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"cue_3w\": \"bird in motion\",\n      \"evidence\": [\n        \"Grid A shows birds in motion blur\",\n        \"Ref1 shows birds in clear focus\"\n      ],\n      \"test\": \"apply motion blur to Ref1\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"cue_3w\": \"low horizon line\",\n      \"evidence\": [\n        \"Grid A has low horizon line\",\n        \"Ref1 has higher horizon line\"\n      ],\n      \"test\": \"raise horizon line in Grid A\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}",
+  "debug_grids": {
+    "S": "subgroup_vs_confused_refs_only_fail/DEBUG_GRIDS/class0_g2_S.jpg",
+    "refs": [
+      "subgroup_vs_confused_refs_only_fail/DEBUG_GRIDS/class0_g2_Ref1.jpg"
+    ]
+  }
+}

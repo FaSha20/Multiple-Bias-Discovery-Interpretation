@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "class_id": 0,
+    "subgroup": 1,
+    "count": 656,
+    "acc": 0.6981707215309143,
+    "ids_subgroup": [
+      772,
+      4455,
+      678,
+      1348,
+      550,
+      5610,
+      5415,
+      251,
+      3048,
+      237,
+      89,
+      3665,
+      2277,
+      3040,
+      219,
+      3911,
+      3035,
+      3453,
+      3185,
+      773,
+      3047,
+      704,
+      5334,
+      3273,
+      5424
+    ],
+    "ref_labels": [
+      1
+    ],
+    "ref_ids": [
+      [
+        1212,
+        1203,
+        1765,
+        4173,
+        1660,
+        603,
+        1781,
+        4138,
+        1719,
+        3014,
+        1435,
+        608,
+        1984,
+        1652,
+        582,
+        2558,
+        176,
+        1433,
+        4099,
+        2520,
+        1391,
+        2896,
+        1818,
+        1185,
+        2458
+      ]
+    ],
+    "mode": "top2_per_class_low_acc"
+  },
+  "answer": {
+    "candidates": [
+      {
+        "cue_3w": "water reflection present",
+        "evidence": [
+          "Grid A has water reflections",
+          "Ref1 has no water reflections"
+        ],
+        "test": "remove water reflections",
+        "confidence": "high"
+      },
+      {
+        "cue_3w": "bird near water",
+        "evidence": [
+          "Grid A birds near water edge",
+          "Ref1 birds not near water edge"
+        ],
+        "test": "move bird away from water",
+        "confidence": "high"
+      },
+      {
+        "cue_3w": "low angle shot",
+        "evidence": [
+          "Grid A uses low angle shots",
+          "Ref1 uses high angle shots"
+        ],
+        "test": "rotate camera up",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "answer_pretty": "{\n  \"candidates\": [\n    {\n      \"cue_3w\": \"water reflection present\",\n      \"evidence\": [\n        \"Grid A has water reflections\",\n        \"Ref1 has no water reflections\"\n      ],\n      \"test\": \"remove water reflections\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"cue_3w\": \"bird near water\",\n      \"evidence\": [\n        \"Grid A birds near water edge\",\n        \"Ref1 birds not near water edge\"\n      ],\n      \"test\": \"move bird away from water\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"cue_3w\": \"low angle shot\",\n      \"evidence\": [\n        \"Grid A uses low angle shots\",\n        \"Ref1 uses high angle shots\"\n      ],\n      \"test\": \"rotate camera up\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}",
+  "debug_grids": {
+    "S": "subgroup_vs_confused_refs_only_fail/DEBUG_GRIDS/class0_g1_S.jpg",
+    "refs": [
+      "subgroup_vs_confused_refs_only_fail/DEBUG_GRIDS/class0_g1_Ref1.jpg"
+    ]
+  }
+}

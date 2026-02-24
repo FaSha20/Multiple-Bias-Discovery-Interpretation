@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "class_id": 1,
+    "subgroup": 0,
+    "count": 349,
+    "acc": 0.1547277867794037,
+    "ids_subgroup": [
+      2501,
+      2500,
+      1188,
+      2530,
+      2034,
+      2439,
+      24,
+      177,
+      4066,
+      634,
+      1395,
+      1461,
+      622,
+      4169,
+      1379,
+      1246,
+      1456,
+      48,
+      2563,
+      537,
+      4076,
+      646,
+      2499,
+      2843,
+      1410
+    ],
+    "ref_labels": [
+      0
+    ],
+    "ref_ids": [
+      [
+        5612,
+        5429,
+        3323,
+        3283,
+        3816,
+        4789,
+        5751,
+        5311,
+        2751,
+        3961,
+        3658,
+        4004,
+        3087,
+        514,
+        4989,
+        5031,
+        899,
+        89,
+        4915,
+        4440,
+        2131,
+        1176,
+        5021,
+        1593,
+        3465
+      ]
+    ],
+    "mode": "top2_per_class_low_acc"
+  },
+  "answer": {
+    "candidates": [
+      {
+        "cue_3w": "dense bamboo background",
+        "evidence": [
+          "Grid A: birds surrounded by dense bamboo",
+          "Ref1: birds in varied backgrounds including open sky"
+        ],
+        "test": "replace bamboo with open sky",
+        "confidence": "high"
+      },
+      {
+        "cue_3w": "bird near vertical",
+        "evidence": [
+          "Grid A: birds often near narrow paths or walkways",
+          "Ref1: birds rarely near vertical paths"
+        ],
+        "test": "remove path and replace with grass",
+        "confidence": "medium"
+      },
+      {
+        "cue_3w": "bird in confined",
+        "evidence": [
+          "Grid A: birds appear in tight, enclosed natural spaces",
+          "Ref1: birds in open or spacious environments"
+        ],
+        "test": "expand frame to show more open space",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "answer_pretty": "{\n  \"candidates\": [\n    {\n      \"cue_3w\": \"dense bamboo background\",\n      \"evidence\": [\n        \"Grid A: birds surrounded by dense bamboo\",\n        \"Ref1: birds in varied backgrounds including open sky\"\n      ],\n      \"test\": \"replace bamboo with open sky\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"cue_3w\": \"bird near vertical\",\n      \"evidence\": [\n        \"Grid A: birds often near narrow paths or walkways\",\n        \"Ref1: birds rarely near vertical paths\"\n      ],\n      \"test\": \"remove path and replace with grass\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"cue_3w\": \"bird in confined\",\n      \"evidence\": [\n        \"Grid A: birds appear in tight, enclosed natural spaces\",\n        \"Ref1: birds in open or spacious environments\"\n      ],\n      \"test\": \"expand frame to show more open space\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}",
+  "debug_grids": {
+    "S": "subgroup_vs_confused_refs_only_fail/DEBUG_GRIDS/class1_g0_S.jpg",
+    "refs": [
+      "subgroup_vs_confused_refs_only_fail/DEBUG_GRIDS/class1_g0_Ref1.jpg"
+    ]
+  }
+}

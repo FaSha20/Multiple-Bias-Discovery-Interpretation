@@ -1,0 +1,54 @@
+[
+  {
+    "class_id": 0,
+    "subgroup": 2,
+    "file": "subgroup_vs_confused_refs_only_fail/class0_subgroup2_vs_refs.json",
+    "acc": 0.4678899049758911,
+    "count": 763,
+    "ref_labels": [
+      1
+    ],
+    "n_imgs_S": 25,
+    "n_refs": 1,
+    "seconds": 82.04246115684509
+  },
+  {
+    "class_id": 0,
+    "subgroup": 1,
+    "file": "subgroup_vs_confused_refs_only_fail/class0_subgroup1_vs_refs.json",
+    "acc": 0.6981707215309143,
+    "count": 656,
+    "ref_labels": [
+      1
+    ],
+    "n_imgs_S": 25,
+    "n_refs": 1,
+    "seconds": 80.34818243980408
+  },
+  {
+    "class_id": 1,
+    "subgroup": 0,
+    "file": "subgroup_vs_confused_refs_only_fail/class1_subgroup0_vs_refs.json",
+    "acc": 0.1547277867794037,
+    "count": 349,
+    "ref_labels": [
+      0
+    ],
+    "n_imgs_S": 25,
+    "n_refs": 1,
+    "seconds": 84.14374232292175
+  },
+  {
+    "class_id": 1,
+    "subgroup": 2,
+    "file": "subgroup_vs_confused_refs_only_fail/class1_subgroup2_vs_refs.json",
+    "acc": 0.468634694814682,
+    "count": 271,
+    "ref_labels": [
+      0
+    ],
+    "n_imgs_S": 25,
+    "n_refs": 1,
+    "seconds": 85.49466896057129
+  }
+]
