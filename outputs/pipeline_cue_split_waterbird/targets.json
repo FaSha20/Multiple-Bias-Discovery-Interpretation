@@ -1,0 +1,50 @@
+[
+  {
+    "class_id": 1,
+    "subgroup": 0,
+    "count": 349,
+    "acc": 0.1547277867794037,
+    "cues": [
+      "dense bamboo background",
+      "bird near vertical",
+      "bird in confined"
+    ],
+    "cue_file": "subgroup_vs_confused_refs_only_fail/class1_subgroup0_vs_refs.json"
+  },
+  {
+    "class_id": 1,
+    "subgroup": 2,
+    "count": 271,
+    "acc": 0.468634694814682,
+    "cues": [
+      "bamboo background presence",
+      "bird positioned near",
+      "tight framing on"
+    ],
+    "cue_file": "subgroup_vs_confused_refs_only_fail/class1_subgroup2_vs_refs.json"
+  },
+  {
+    "class_id": 0,
+    "subgroup": 2,
+    "count": 763,
+    "acc": 0.4678899049758911,
+    "cues": [
+      "water background presence",
+      "bird in motion",
+      "low horizon line"
+    ],
+    "cue_file": "subgroup_vs_confused_refs_only_fail/class0_subgroup2_vs_refs.json"
+  },
+  {
+    "class_id": 0,
+    "subgroup": 1,
+    "count": 656,
+    "acc": 0.6981707215309143,
+    "cues": [
+      "water reflection present",
+      "bird near water",
+      "low angle shot"
+    ],
+    "cue_file": "subgroup_vs_confused_refs_only_fail/class0_subgroup1_vs_refs.json"
+  }
+]
