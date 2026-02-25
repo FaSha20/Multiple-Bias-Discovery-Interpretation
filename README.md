@@ -73,7 +73,7 @@ Dataset
 
 This project uses CIFAR-100 (the repo expects the `cifar-100-python` files under `data/`). See `data/cifar-100-python/` for the raw dataset files. The custom dataset wrappers in `core/dataloader.py` provide:
 
-- `SuperCIFAR100` — maps CIFAR-100 subclasses to 20 superclasses (group labels).
+- `Waterbirds` — maps birds with diffrent background and pose into their types (landbird, waterbird).
 - `ImbalancedSuperCIFAR100` — constructs train/val/intervention splits with controlled class imbalance to simulate spurious subgroup effects.
 
 If you do not have CIFAR-100 locally, download it from the official source and place the Python files in `data/cifar-100-python/`.
